@@ -8,8 +8,8 @@
     Show the default h1 below -->
 
   <% if (locals.adjSend && locals.nounSend) { %>
-    <h1>Your Band Name is ... </h1> 
-    <h1><%= adjSend  %> <%= nounSend  %></h1>   
+    <h1>Your Amazing Band Name is ... </h1> 
+    <h1 id="bandName"><%= adjSend  %> <%= nounSend  %></h1>   
   <% } 
   else {%>
     <h1>Click to Generate Your Awesome Band Name 🤘🏼 </h1>
